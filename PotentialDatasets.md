@@ -5,3 +5,5 @@ Motor vehicle crash statistics https://catalogue.data.govt.nz/dataset/motor-vehi
 
 Overseas drivers in crashes http://www.transport.govt.nz/assets/Uploads/Research/Documents/Overseas-drivers-2015-plus-matched-30Mar16.pdf  
 Unkown usefulness http://info.scoop.co.nz/Trifecta_GIS
+
+Auckland Transport Data http://data-atgis.opendata.arcgis.com/
