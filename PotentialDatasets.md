@@ -7,3 +7,5 @@ Overseas drivers in crashes http://www.transport.govt.nz/assets/Uploads/Research
 Unkown usefulness http://info.scoop.co.nz/Trifecta_GIS
 
 Auckland Transport Data http://data-atgis.opendata.arcgis.com/
+
+NZ Transport Datasets https://www.nzta.govt.nz/planning-and-investment/planning/transport-data/all-available-data-tools/ Could be useful?
