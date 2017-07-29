@@ -18,3 +18,7 @@ Stadiums and past events https://www.eventfinda.co.nz/venues/new-zealand/stadium
 eventfinder api https://www.eventfinda.co.nz/api/v2/index
 
 Vehicle Telemerty https://nzta.govt.nz/resources/state-highway-traffic-growth/
+
+
+
+oth https://github.com/canzuk5/plan-your-rec-server
