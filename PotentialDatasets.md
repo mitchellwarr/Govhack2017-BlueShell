@@ -15,5 +15,6 @@ TripAdvisor (Tourism information) https://developer-tripadvisor.com/content-api/
 Road information (speed)and images NZTA https://catalogue.data.govt.nz/dataset?q=nzta
 
 Stadiums and past events https://www.eventfinda.co.nz/venues/new-zealand/stadium
+eventfinder api https://www.eventfinda.co.nz/api/v2/index
 
 Vehicle Telemerty https://nzta.govt.nz/resources/state-highway-traffic-growth/
