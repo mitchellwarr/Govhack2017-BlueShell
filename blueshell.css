@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: Calibri;
+    color: #4f4f4f;
+    margin: 20px 60px 0px 60px;
+}
+
+#mapid {
+    width:100%;
+    height:500px;
+}
+
+.padded {
+    padding: 5px;
+}
+
+
+.textInput {
+    border: 1px solid #C2C2C2;
+    box-shadow: 0px 1px 3px 1px #dedede;
+    -webkit-box-shadow: 0px 1px 3px 1px #dedede;
+    background-color: transparent;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.rowButton {
+    width: 103px;
+    text-align: center;
+    border: 1px solid #C2C2C2;
+    box-shadow: 0px 1px 3px 1px #dedede;
+    -webkit-box-shadow: 0px 1px 3px 1px #dedede;
+    background-color: transparent;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 7px;
+    transition: all .3s;
+    -moz-transition: 0.2s ease all; 
+    -webkit-transition: 0.2s ease all;
+    margin-right: 10px;
+}
+
+.rowButton:hover {
+    cursor: pointer;
+    border-color: #2B85E7;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(1,67,163,.24),0 0 8px rgba(1,67,163,.12),0 4px 18px rgba(43,133,231,.12);
+    transform: translate3d(0,-2px,0);
+}
+
+.rowButton:active {
+    border-color: #2B85E7;
+    box-shadow: inset 0px 0px 8px 3px #dedede;
+    -webkit-box-shadow: inset 0px 0px 8px 3px #dedede;
+}
+
+.rowLabel {
+    align-self: center;
+    width: auto;
+    display: inline-block;
+    pointer-events: none;
+    transition: 0.2s ease all; 
+    -moz-transition: 0.2s ease all; 
+    -webkit-transition: 0.2s ease all;
+}
+
+.MainCanvas {
+    min-width: 254px;
+    width: 100%;
+    min-height: 500px;
+    margin: 40px 0px 60px 0px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 4px #cccccc;
+    flex-direction: column;
+}
+
+.MainCanvasFrame {
+    width: 100%;
+    min-width: 200px;
+    min-height: 500px;
+    display: block;
+}
+
+.InputBox {
+    margin-left: 0;
+    align-self: center;
+    min-height: 400px;
+    width: 100%;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.MainCanvasScreen {
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    background-color: #272943;
+}
+
+.resizeable {
+    float: right;
+    min-width: 100px;
+    display: block;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 320px){
+    
+    .InputBox {
+        min-width: 0;
+    }
+    
+    body {
+        margin: 20px 20px 0px 20px;
+    }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
